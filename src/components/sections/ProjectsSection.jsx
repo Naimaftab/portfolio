@@ -7,7 +7,7 @@ const ProjectsSection = ({ onProjectClick }) => (
     <div className="max-w-7xl mx-auto">
       <div className="mb-16">
          <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#003049] mb-6">Mes projets</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-[#003049] mb-6 underline underline-offset-4">Mes projets</h2>
       </div>
         <div className="w-16 h-1 mb-8"></div>
       </div>

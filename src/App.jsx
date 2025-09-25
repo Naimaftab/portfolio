@@ -22,10 +22,12 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#FFF2D0] to-[#FFB0B9]">
       <Navigation />
+<div className="stars-overlay">
       <HeroSection />
       <SkillsSection />
       <ProjectsSection onProjectClick={openProject} />
       <ContactSection />
+</div>
       <Footer />
 
       {/* Modals */}

@@ -23,9 +23,18 @@ a:hover {
   color: #fdbf45;
 } */
 
+/* body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #EAE2B7, #FCBF49);
+} */
+
 body {
   min-height: 100vh;
   background: linear-gradient(to bottom right, #EAE2B7, #FCBF49);
+
+}
+.stars-overlay {
+  background-image: url('/stars.png'); /* chemin vers ton image */
 }
 
 h1 {

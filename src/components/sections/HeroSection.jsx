@@ -8,7 +8,7 @@ const HeroSection = () => (
 {/* Image à droite (en haut sur mobile) */}
 <div className="w-full md:w-1/2 flex justify-center relative">
   {/* Photo */}
-  <div className="relative z-10 w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#D6E932] shadow-lg">
+  <div className="relative z-10 w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 bg-gradient-to-r from-[#003049] via-[#D62828] to-[#F77F00] shadow-lg">
     <img 
       src="/portfolio/images/portrait2.png"
       alt="Portrait de Naïmagique"

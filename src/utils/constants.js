@@ -2,7 +2,7 @@ export const COLORS = {
   PRIMARY: "#ffffffff",
   PRIMARY_LIGHT: "#e6e6efff",
   SECONDARY: "#FF6B9D",
-  ACCENT: "#4CAF50",
+  ACCENT: "#d2a80fff",
 };
 
 export const SOCIAL_LINKS = {

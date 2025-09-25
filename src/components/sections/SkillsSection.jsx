@@ -6,7 +6,7 @@ const SkillsSection = () => (
   <section id="about" className="py-15 px-4 sm:px-6 lg:px-8">
     <div className="max-w-7xl mx-auto">
       <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold text-[#003049] mb-6" >Mes compétences</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-[#003049] mb-1 underline underline-offset-4"  >Mes compétences</h2>
       </div>
 
       <div className="flex flex-col lg:flex-row gap-8 justify-center items-stretch">

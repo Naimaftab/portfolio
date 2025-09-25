@@ -77,7 +77,7 @@ const ContactSection = () => (
               href="./assets/AFTAB_CV.pdf" 
               download="AFTAB_CV.pdf"
               className="w-16 h-16 rounded-2xl flex items-center justify-center transition-transform hover:scale-110"
-              style={{backgroundColor: '#E8F5E8'}}
+              style={{backgroundColor: '#f8da64ff'}}
             >
               <Download size={32} color={COLORS.ACCENT} />
             </a>
@@ -98,7 +98,7 @@ const ContactSection = () => (
               AFTAB
             </div>
             <div className="text-2xl font-script" style={{ color: COLORS.PRIMARY, fontFamily: 'cursive' }}>
-              Naima
+             <img  src="/portfolio/images/citron3.png" alt="Emoji coucou"className="inline w-10 h-10 sm:w-10 sm:h-10 md:w-10 md:h-10"/> Naima 
             </div><br /><br />
           </div>
         </div>

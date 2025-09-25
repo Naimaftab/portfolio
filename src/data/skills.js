@@ -1,28 +1,35 @@
-import { Palette, Figma, Users } from "lucide-react";
+import { Palette, Figma, Users, Code } from "lucide-react";
 
 export const skills = [
   {
     name: "Design UX/UI",
     icon: Palette,
-    items: ["Design System", "Wireframing", "Prototyping", "User Testing"],
+    items: ["ADOBEXD", "Wireframing", "Prototyping", "User Testing"],
     color: "from-purple-500 to-pink-500",
   },
   {
     name: "Outils Design",
     icon: Figma,
-    items: ["Figma", "Adobe XD", "Sketch", "After Effects"],
+    items: [
+      "Figma",
+      "Adobe XD",
+      "Photoshop",
+      "TailwindCSS",
+      "Bootstrap",
+      "NEXTUI",
+    ],
     color: "from-blue-500 to-cyan-500",
   },
   {
     name: "Recherche UX",
     icon: Users,
-    items: ["User Research", "Personas", "Journey Maps", "A/B Testing"],
+    items: ["User Research", "Personas"],
     color: "from-emerald-500 to-teal-500",
   },
   {
     name: "Developpement web",
-    icon: Users,
-    items: ["User Research", "Personas", "Journey Maps", "A/B Testing"],
-    color: "from-emerald-500 to-teal-500",
+    icon: Code,
+    items: ["HTML", "CSS", "JS", "REACTJS", "PostgreSQL", "Symfony"],
+    color: "from-yellow-500 to-teal-500",
   },
 ];
