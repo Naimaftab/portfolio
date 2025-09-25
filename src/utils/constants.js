@@ -6,9 +6,9 @@ export const COLORS = {
 };
 
 export const SOCIAL_LINKS = {
-  EMAIL: "mailto:lea.mathieu@example.com",
+  EMAIL: "mailto:aftab.naima@outlook.fr",
   INSTAGRAM: "https://instagram.com",
   LINKEDIN: "https://linkedin.com",
-  DRIBBBLE: "https://dribbble.com",
-  CV_DOWNLOAD: "/cv-lea-mathieu.pdf",
+  //DRIBBBLE: "https://dribbble.com",
+  CV_DOWNLOAD: "/AFTAB_CV.pdf",
 };

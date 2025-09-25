@@ -19,4 +19,10 @@ export const skills = [
     items: ["User Research", "Personas", "Journey Maps", "A/B Testing"],
     color: "from-emerald-500 to-teal-500",
   },
+  {
+    name: "Developpement web",
+    icon: Users,
+    items: ["User Research", "Personas", "Journey Maps", "A/B Testing"],
+    color: "from-emerald-500 to-teal-500",
+  },
 ];
