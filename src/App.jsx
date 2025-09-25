@@ -20,7 +20,7 @@ const App = () => {
   } = useModal();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#EAE2B7] to-[#FCBF49]">
+    <div className="min-h-screen bg-gradient-to-br from-[#FFF2D0] to-[#FFB0B9]">
       <Navigation />
       <HeroSection />
       <SkillsSection />

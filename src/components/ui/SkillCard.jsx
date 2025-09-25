@@ -4,7 +4,7 @@ const SkillCard = ({ skill }) => (
   <div className="relative group flex-1">
     <div className="absolute inset-0 bg-gradient-to-r opacity-0 group-hover:opacity-10 rounded-3xl transition-opacity" 
          style={{background: `linear-gradient(135deg, ${skill.color.split(' ')[1]} 0%, ${skill.color.split(' ')[3]} 100%)`}}></div>
-    <div className="relative p-8 rounded-3xl border border-gray-100 hover:shadow-xl transition-all h-full">
+    <div className="bg-white relative p-8 rounded-3xl border border-gray-100 hover:shadow-xl transition-all h-full">
       <div className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${skill.color} flex items-center justify-center mb-6`}>
         <skill.icon className="w-8 h-8 text-white" />
       </div>

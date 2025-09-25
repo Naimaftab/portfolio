@@ -9,10 +9,10 @@ const Navigation = () => (
         </div>
       
         <div className="hidden md:flex space-x-8">
-          <a href="#home" className="text-gray-700 hover:text-purple-600 transition-colors">Accueil</a>
-          <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">À propos</a>
-          <a href="#projects" className="text-gray-700 hover:text-purple-600 transition-colors">Mes projets</a>
-          <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">Contact</a>
+          <a href="#home" className="text-[#003049] hover:text-[#F77F00] transition-colors">Accueil</a>
+          <a href="#about" className="text-[#003049] hover:text-[#F77F00] transition-colors">À propos</a>
+          <a href="#projects" className="text-[#003049] hover:text-[#F77F00] transition-colors">Mes projets</a>
+          <a href="#contact" className="text-[#003049] hover:text-[#F77F00] transition-colors">Contact</a>
         </div>
       </div>
     </div>

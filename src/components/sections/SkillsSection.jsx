@@ -3,13 +3,10 @@ import { skills } from '../../data/skills';
 import SkillCard from '../ui/SkillCard';
 
 const SkillsSection = () => (
-  <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+  <section id="about" className="py-15 px-4 sm:px-6 lg:px-8">
     <div className="max-w-7xl mx-auto">
       <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Mes compétences</h2>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Une approche holistique du design centré utilisateur
-        </p>
+        <h2 className="text-4xl md:text-5xl font-bold text-[#003049] mb-6" >Mes compétences</h2>
       </div>
 
       <div className="flex flex-col lg:flex-row gap-8 justify-center items-stretch">

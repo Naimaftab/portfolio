@@ -24,7 +24,7 @@ const ContactSection = () => (
       <BunnyDecoration /> */}
 
       <div className="text-center">
-        <h2 className="text-4xl md:text-6xl font-light mb-8" style={{color: COLORS.PRIMARY}}>
+        <h2 className="text-4xl md:text-4xl font-light mb-8" style={{color: COLORS.PRIMARY}}>
           Tu as une question, un projet en<br />
           tête ou<br />
           <span className="font-normal">simplement envie d'échanger ?</span>
@@ -85,16 +85,25 @@ const ContactSection = () => (
         </div>
 
         {/* Signature */}
-        <div className="absolute bottom-8 right-8">
-          <div className="text-right">
-            <div className="text-3xl font-script mb-2" style={{color: COLORS.PRIMARY, fontFamily: 'cursive'}}>
+        <div className="relative">
+        {/* Icônes de contact */}
+        <div className="flex flex-col items-center sm:flex-row sm:justify-center gap-4">
+          {/* Tes icônes ici */}
+        </div>
+
+        {/* Signature */}
+        <div className="mt-6 sm:mt-0 sm:absolute sm:bottom-8 sm:right-8 text-right">
+          <div className="flex flex-col sm:text-right text-center">
+            <div className="text-3xl font-script" style={{ color: COLORS.PRIMARY, fontFamily: 'cursive' }}>
+              AFTAB
+            </div>
+            <div className="text-2xl font-script" style={{ color: COLORS.PRIMARY, fontFamily: 'cursive' }}>
               Naima
-            </div>
-            <div className="text-2xl font-script" style={{color: COLORS.PRIMARY, fontFamily: 'cursive'}}>
-             AFTAB
-            </div>
+            </div><br /><br />
           </div>
         </div>
+      </div>
+
       </div>
     </div>
   </section>
