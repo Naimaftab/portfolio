@@ -12,6 +12,7 @@ import useModal from './hooks/useModal';
 const App = () => {
   const {
     selectedProject,
+  selectedIndex,
     zoomedImage,
     openProject,
     closeProject,
@@ -24,7 +25,7 @@ const App = () => {
       <Navigation />
 <div className="stars-overlay">
       <HeroSection />
-      <SkillsSection />
+      {/* <SkillsSection /> */}
       <ProjectsSection onProjectClick={openProject} />
       <ContactSection />
 </div>
@@ -33,7 +34,8 @@ const App = () => {
       {/* Modals */}
       {selectedProject && (
         <ProjectModal 
-          project={selectedProject} 
+          project={selectedProject}
+          index={selectedIndex}
           onClose={closeProject}
           onImageClick={openImageZoom}
         />

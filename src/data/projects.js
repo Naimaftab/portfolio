@@ -1,13 +1,18 @@
 export const projects = [
   {
     id: 1,
-    title: "UrbanHeaven",
-    category: "E-commerce • Design d'interface",
+    title: "Blog • Le stress en entreprise",
+    category: "Design d'interface • Wordpress",
     description:
-      "Site e-commerce spécialisé dans la vente de plantes d'intérieur modernes. Le projet vise à créer une expérience d'achat élégante et intuitive pour les amateurs de décoration végétale, avec un design épuré et une navigation fluide.",
+      "Création d'un site type blog, le but est de partager mais surtout d’aider la gestion du stress en entreprise. L’insertion dans la vie professionnelle viens avec son lot d’angoisse. En raison d’une crise économique survenue à la suite de la COVID-19, on s’est souvent laissé submergé par les émotions et le stress. La création de ce blog a pour mission de vous partager sa positivité, ses idées et solutions pour diminuer et savoir gérer son stress en entreprise.",
+
+    // Site e-commerce spécialisé dans la vente de plantes d'intérieur modernes. Le projet vise à créer une expérience d'achat élégante et intuitive pour les amateurs de décoration végétale, avec un design épuré et une navigation fluide.",
     image:
       "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=400&fit=crop",
     mockups: [
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop",
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
@@ -18,14 +23,14 @@ export const projects = [
       "Développer un design responsive et accessible",
       "Intégrer des fonctionnalités e-commerce intuitives",
     ],
-    tech: ["Figma", "Adobe XD", "Prototyping"],
+    tech: ["Figma", "Adobe XD", "Wireframes", "Personas", "Wordpress"],
     demo: "#",
     behance: "#",
   },
   {
     id: 2,
-    title: "MindfulSpace",
-    category: "App Mobile • UX Design",
+    title: "Loc'Event",
+    category: "Developpeur front-end • UX Design",
     description:
       "Application mobile de méditation et bien-être mental. Interface pensée pour créer une expérience apaisante et encourager l'engagement quotidien des utilisateurs.",
     image:
@@ -41,14 +46,14 @@ export const projects = [
       "Optimiser l'engagement quotidien des utilisateurs",
       "Développer une identité visuelle cohérente",
     ],
-    tech: ["Figma", "Principle", "User Research"],
+    tech: ["AdobeXD", "Figma", "ReactJS", "TailwindCSS", "NEXTUI"],
     demo: "#",
     behance: "#",
   },
   {
     id: 3,
-    title: "CreativeHub",
-    category: "Dashboard • Data Visualization",
+    title: "Vainkeurz",
+    category: "UI Designer • Figma",
     description:
       "Plateforme collaborative pour équipes créatives avec tableau de bord analytique. Focus sur la visualisation de données et l'optimisation des workflows créatifs.",
     image:
@@ -64,9 +69,7 @@ export const projects = [
       "Créer des visualisations de données engageantes",
       "Améliorer la productivité des workflows créatifs",
     ],
-    tech: ["Sketch", "InVision", "After Effects"],
-    demo: "#",
-    behance: "#",
+    tech: ["Figma", "CanvaPro", "Photoshop"],
   },
   {
     id: 4,
@@ -116,8 +119,8 @@ export const projects = [
   },
   {
     id: 6,
-    title: "CreativeHub",
-    category: "Dashboard • Data Visualization",
+    title: "Site E-Commerce en cours",
+    category: "Wordpress • WooCommerce",
     description:
       "Plateforme collaborative pour équipes créatives avec tableau de bord analytique. Focus sur la visualisation de données et l'optimisation des workflows créatifs.",
     image:
