@@ -4,7 +4,7 @@ export const skills = [
   {
     name: "Design UX/UI",
     icon: Palette,
-    items: ["ADOBEXD", "Wireframing", "Prototyping", "User Testing"],
+    items: ["ADOBE XD", "Wireframing", "Prototyping", "User Testing"],
     color: "from-purple-500 to-pink-500",
   },
   {

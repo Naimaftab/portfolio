@@ -65,16 +65,27 @@ const ProjectModal = ({ project, index, onClose, onImageClick }) => {
 
               <div className="flex gap-4 mt-8">
                 {project.demo && (
-                  <a 
-                    href={project.demo} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full hover:shadow-lg transition-all"
-                  >
-                    <Eye size={16} className="mr-2" />
-                    Voir le projet
-                  </a>
-                )}
+  <a 
+    href={project.demo} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="flex items-center px-4 py-2 rounded-full transition-all"
+    style={{
+      backgroundColor: color,
+      color: '#fff',
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.opacity = '0.85';
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.opacity = '1';
+    }}
+  >
+    <Eye size={16} className="mr-2" />
+    Voir le projet
+  </a>
+)}
+
                 {project.behance && (
                   <a 
                     href={project.behance} 
